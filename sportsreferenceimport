@@ -1,0 +1,7 @@
+from sportsreference.nfl.teams import Teams
+
+teams = Teams()
+for team in teams:
+    print(team.name)  # Prints the team's name
+    # Prints the team's average margin of victory
+    print(team.margin_of_victory)
